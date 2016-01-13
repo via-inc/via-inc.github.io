@@ -1,4 +1,21 @@
 ---
-layout: default
 ---
-<h1>{{ site.title }}</h1>
+<h2>{% capture total_pages %}{{ site.pages | size | minus:3 }}{% endcapture %}{{total_pages}} pages</h2>
+
+<ul class="page-list">
+{% for page in site.pages %}
+  {% if page.title %}
+  <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+<h2>{{ site.posts | size }} posts</h2>
+
+<ul class="post-list">
+{% for post in site.posts %}
+  <li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.categories }} · {{ post.title }} · {{ post.date | date: "%b %-d, %Y" }}</a></li>
+{% endfor %}
+</ul>
+
+<h2>{{ site.posts | size | plus: total_pages }} total screens</h2>
