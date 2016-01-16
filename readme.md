@@ -52,3 +52,14 @@
 - What is the best tool to quickly prove that the site looks as intended on as many devices and browsers as possible? Browserstack?
 - What about accessibility? Accessibility auditor browser extension?
 - What about A/B testing?
+
+## Content optimizations
+
+- Based on the current number of unique pages and posts, we can bring almost every link to the surface in the footer, then arrange by priority and relevance. A more substantial footer supported by a properly formatted `sitemap.xml` will improve organic search.
+- As long as there is a clear distinction between each joke, we can move all 9 Gordie’s Giggles to a single page. More jokes can be added to this page, but Facebook may serve as a better home for this type of content.
+- We can remove the _Help Us Celebrate 35 Years_ page because it is no longer relevant.
+
+## Implementation research
+
+- [Group-based navigation structure and active class](http://stackoverflow.com/questions/8340170/jekyll-automatically-highlight-current-tab-in-menu-bar)
+- [Categories](http://www.chrisanthropic.com/blog/2014/jekyll-themed-category-pages-without-plugins/)

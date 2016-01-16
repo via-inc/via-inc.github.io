@@ -1,6 +1,8 @@
 ---
 title: Other Insurance
 permalink: other-insurance/
+group: services
+order: 3
 ---
 ## Hole-In-One Insurance
 

@@ -1,6 +1,8 @@
 ---
 title: Get a Free $10 Gift Card
 permalink: gift/
+group: about
+order: 4
 ---
 Call to set up an appointment with one of our friendly agents, or simply fill out our “Quote Request” form. Allow us to give you a competitive quote and receive the gift card whether we write your insurance or not.
 

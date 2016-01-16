@@ -1,0 +1,19 @@
+- text: "Home"
+  href: /
+
+- text: "About Us"
+  href: /about/
+  group: about
+
+- text: "Services"
+  href: /services/
+  group: services
+
+- text: "Articles"
+  href: /articles/
+
+- text: "Testimonials"
+  href: /testimonials/
+
+- text: "Contact Us"
+  href: /contact/

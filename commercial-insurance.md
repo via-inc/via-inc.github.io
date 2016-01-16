@@ -1,6 +1,8 @@
 ---
 title: Commercial Insurance
 permalink: services/commercial-insurance/
+group: services
+order: 2
 ---
 ## Request A Free Life Insurance Quote
 

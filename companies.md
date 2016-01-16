@@ -1,6 +1,8 @@
 ---
 title: Our Companies
 permalink: companies/
+group: about
+order: 2
 ---
 Auto-Owners Insurance
 888-252-4626

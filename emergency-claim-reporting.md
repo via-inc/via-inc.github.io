@@ -1,6 +1,8 @@
 ---
 title: Emergency Claim Reporting
 permalink: emergency-claim-reporting/
+group: services
+order: 4
 ---
 A true measure of any independent insurance agency is responsiveness to loss. Reporting a claim with us is easy and can be done in a number of ways.
 

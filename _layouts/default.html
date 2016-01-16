@@ -8,7 +8,7 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   </head>
   <body>
-    <header>
+    <header role="banner">
       <h1>Valley Insurance Agency</h1>
       <a href="https://www.facebook.com/pages/Valley-Insurance/524287094277311?fref=ts">Find us on Facebook</a>
       <strong>630-232-1640</strong>
@@ -16,13 +16,24 @@
         422 E. State Street<br>
         Geneva, IL 60134
       </address>
+      <nav role="navigation">
+        {% for nav in site.data.nav %}
+          {% capture url %}{{ page.url | replace: 'index.html' }}{% endcapture %}
+          <a href="{{ site.baseurl }}{{ nav.href }}"{% if url == nav.href %} class="active"{% endif %}>{{ nav.text }}</a>
+          {% if nav.group != null %}
+            {% assign group = nav.group %}
+            {% include pages_list.html %}
+          {% endif %}
+        {% endfor %}
+      </nav>
     </header>
-    <article>
+    <article role="main">
       <h1>{{ page.title }}</h1>
       {{ content }}
     </article>
-    <footer>
+    <footer role="contentinfo">
       Copyright &copy; 2013 Valley Insurance Agency 422 E. State Street Geneva IL 60124. All Rights Reserved.
+      <a href="https://github.com/via-inc/via-inc.github.io"><i class="fa fa-github"></i> Hosted on Github</a>
     </footer>
   </body>
 </html>

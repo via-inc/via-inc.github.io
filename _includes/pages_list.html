@@ -1,0 +1,7 @@
+{% assign sorted_pages = site.pages | sort: 'order' %}
+{% for node in sorted_pages %}
+  {% if group == node.group %}
+    <a href="{{node.url}}"{% if page.url == node.url %} class="active"{% endif %}>{{node.title}}</a>
+  {% endif %}
+{% endfor %}
+{% assign group = nil %}

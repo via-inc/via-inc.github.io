@@ -1,6 +1,8 @@
 ---
 title: Personal Insurance
 permalink: services/personal-insurance/
+group: services
+order: 1
 ---
 ## Request A Free Life Insurance Quote
 

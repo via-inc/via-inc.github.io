@@ -1,6 +1,8 @@
 ---
 title: Customer Service
 permalink: customer-service/
+group: about
+order: 3
 ---
 Excellent customer service is the lifeblood of any business. At Valley Insurance Agency, we definitely live by our motto:
 
